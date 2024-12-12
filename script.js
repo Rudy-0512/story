@@ -82,4 +82,4 @@ smile.addEventListener('mouseenter',function(){
     swim.style.display="block"
     woods.style.display="none"
     text.innerHTML="yay this is so fun "
-});
+});9344 
