@@ -7,7 +7,16 @@ eatcheese.style.display="none"
 let smile = document.querySelector('.smile')
 smile.style.display="none"
 
+
+
+let body = document.querySelector ('body');
+
+
+
+
+
 //Choice A
+
 let x = document.querySelector('.x');
 x.style.display ="none";
 let hug =document.querySelector('.hug');
@@ -39,7 +48,7 @@ text.innerHTML="you see a figure in the distance to aproche it dblclick, to run 
 //x left choice one
 
 x.addEventListener('dblclick', function(){
-
+ 
 text.innerHTML="BOOO";
 x.style.display="none";
 hug.style.display="block";
@@ -58,6 +67,8 @@ eatcheese.addEventListener('mouseenter',function(){
 
 //RIGHT SIDE
 right.addEventListener('click', function(){
+    body.style.background = "#5c3426ff";
+    body.style.color = "white";
     leftRight.style.display ="none";
     left.style.display ="none";
     right.style.display ="none";
@@ -83,3 +94,6 @@ smile.addEventListener('mouseenter',function(){
     woods.style.display="none"
     text.innerHTML="yay this is so fun "
 });9344 
+
+
+
